@@ -20,5 +20,6 @@ const trycatchHelper = (func) => __awaiter(void 0, void 0, void 0, function* () 
         console.error(UnknownError);
         error = UnknownError;
     }
+    return { data, error };
 });
 exports.default = trycatchHelper;
